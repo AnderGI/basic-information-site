@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "noImplicitAny": true,
+        "module": "NodeNext",
+        "moduleResolution": "NodeNext" , // allow imports
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "esModuleInterop": true
+    }
+}
