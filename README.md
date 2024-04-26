@@ -15,10 +15,12 @@
 - Async vs Sync
 - Error "handling" with custom error classes
 
-  > [!NOTE]
-  > I am trying to avoid TypeScript inference just for LEARNING PURPOSES
+> [!NOTE]
+> I am trying to avoid TypeScript inference just for LEARNING PURPOSES
 
 # Set up
 
-1 - Clone the git repo `git clone git-repo-url`
-2 - Run the app with ts-node
+> [!IMPORTANT]
+> Add a file "env" inside src/utils/env-variables where you add your environment variables
+> 1 - Clone the git repo `git clone git-repo-url`
+> 2 - Run the app with ts-node
