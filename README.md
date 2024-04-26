@@ -22,5 +22,7 @@
 
 > [!IMPORTANT]
 > Add a file "env" inside src/utils/env-variables where you add your environment variables
-> 1 - Clone the git repo `git clone git-repo-url`
-> 2 - Run the app with ts-node
+
+1 - Clone the git repo <code>git clone https://github.com/AnderGI/basic-information-site.git</code>
+2 - Install all npm dependencies <code>npm install</code>
+3 - Run the app with <code>ts-node</code>
