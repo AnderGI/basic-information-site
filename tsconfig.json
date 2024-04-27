@@ -2,10 +2,17 @@
     "compilerOptions": {
         "target": "ES6",
         "noImplicitAny": true,
-        "module": "NodeNext",
-        "moduleResolution": "NodeNext" , // allow imports
+        // Module system 
+        // NodeNext for modern node verisons
+        // preserve or esnext for code that will be bundled
+        "module": "NodeNext", 
+        // specify the module resolution, should be related with module property
+        "moduleResolution": "NodeNext" , // ***
         "forceConsistentCasingInFileNames": true,
-        "strict": true,
-        "esModuleInterop": true
+        "strict": true, // enable stric type cheking
+        // by default false, resolves import (default or not) mis-match
+        // import * as moment from "moment" -> const moment = require("moment") this import obliges it to be an object
+        // import moment from "moment" -> const moment = require("moment").default
+        "esModuleInterop": true 
     }
 }
